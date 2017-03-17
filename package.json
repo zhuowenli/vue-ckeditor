@@ -1,0 +1,24 @@
+{
+  "name": "vueckeditor",
+  "description": "My marvelous Vue app",
+  "version": "0.1.0",
+  "repository": {},
+  "main": "dist/vueckeditor.js",
+  "files": ["dist"],
+  "scripts": {
+    "test": "echo lol",
+    "test:unit": "vbuild -c vbuild.unit.js",
+    "lint": "vbuild -c vbuild.example.js --eslint",
+    "build": "npm run build:cjs && npm run build:umd",
+    "build:cjs": "vbuild -c vbuild.component.js --format cjs",
+    "build:umd": "vbuild -c vbuild.component.js --format umd",
+    "example": "vbuild -c vbuild.example.js -d",
+    "deploy": "vbuild -c vbuild.example.js && gh-pages -d dist-example"
+  },
+  "devDependencies": {
+    "gh-pages": "^0.12.0",
+    "vbuild-karma": "^1.0.0",
+    "vbuild": "^6.0.0"
+  },
+  "license": "MIT"
+}
