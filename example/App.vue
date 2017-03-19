@@ -4,7 +4,7 @@
 </template>
 
 <script>
-  import VueCkeditor from '../src/vueckeditor.vue';
+  import VueCkeditor from '../src/vueckeditor';
 
   export default {
     components: {

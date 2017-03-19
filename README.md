@@ -1,6 +1,6 @@
-# vueckeditor
+# VueCkeditor
 
-My marvelous Vue app
+Vue2.0 Ckeditor component.
 
 ## Install
 
@@ -10,10 +10,70 @@ yarn add vueckeditor
 
 ## Usage
 
-```js
-import vueckeditor from 'vueckeditor'
+`VueCkeditor` is using `ckeditor.js` external.
 
-//... your code
+```html
+// index.html
+<script src="//cdn.ckeditor.com/4.6.2/full/ckeditor.js"></script>
+```
+
+or
+
+```html
+// index.html
+<script src="/path/to/ckeditor.js"></script>
+```
+
+Single ckeditor
+
+```vue
+// App.vue
+<template lang="pug">
+  #app
+    vue-ckeditor(v-model="content")
+</template>
+
+<script>
+  import VueCkeditor from 'vueckeditor';
+
+  export default {
+    components: {
+      VueCkeditor
+    },
+    data() {
+      return {
+        content: 'Hello World!',
+      };
+    }
+  }
+</script>
+```
+
+Multi ckeditor
+
+```
+// App.vue
+<template lang="pug">
+  #app
+    vue-ckeditor(v-model="contentA" id="editor-a")
+    vue-ckeditor(v-model="contentB" id="editor-b")
+</template>
+
+<script>
+  import VueCkeditor from '../src/vueckeditor.vue';
+
+  export default {
+    components: {
+      VueCkeditor
+    },
+    data() {
+      return {
+        contentA: 'Hello World!',
+        contentB: 'Hello World!',
+      };
+    }
+  }
+</script>
 ```
 
 ## Folder structure

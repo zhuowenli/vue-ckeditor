@@ -8,11 +8,17 @@
 
 const path = require('path');
 
-module.exports = {
+module.exports = (options, req) => ({
   entry: 'example/index.js',
   dist: 'dist-example',
   html: {
     title: 'vueckeditor',
     template: './index.html'
-  }
-}
+  },
+  webpack(cfg) {
+    if(!options.dev) {
+        cfg.output.publicPath = `/VueCKEditor/`;
+    }
+    return cfg;
+  },
+});
