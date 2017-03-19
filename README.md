@@ -84,13 +84,13 @@ Multi ckeditor
 
 - Type: String
 - Required: false
-- Default: null
+- Default: `null`
 
 ### height
 
 - Type: String
 - Required: false
-- Default: 300px
+- Default: `300px`
 
 ### toolbar
 
@@ -118,13 +118,13 @@ You can find toolbar list of [Toolbar Configurator](http://nightly.ckeditor.com/
 
 - Type: String
 - Required: false
-- Default: 'zh-cn'
+- Default: `'zh-cn'`
 
 ### extraplugins
 
 - Type: String
 - Required: false
-- Default: ''
+- Default: `''`
 
 
 ## Folder structure
