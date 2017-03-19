@@ -10,19 +10,23 @@ yarn add vueckeditor
 
 ## Usage
 
-`VueCkeditor` is using `ckeditor.js` external.
+`VueCkeditor` is using `ckeditor` external.
+
+To start using CKEditor on your website, add a single `<script>` tag to your HTML page:
 
 ```html
-// index.html
 <script src="//cdn.ckeditor.com/4.6.2/full/ckeditor.js"></script>
 ```
 
-or
+Or visit the official [CKEditor Download](http://ckeditor.com/download) site. And click the **Download CKEditor** button to get the `.zip` installation file. If you want to try out more editor features, you can download the Full Package instead.
+
+Unpack (extract) the downloaded `.zip` archive to the `ckeditor` directory in the root of your website.
 
 ```html
-// index.html
 <script src="/path/to/ckeditor.js"></script>
 ```
+
+## Adding CKEditor to Your Page
 
 Single ckeditor
 
