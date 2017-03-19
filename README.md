@@ -51,7 +51,7 @@ Single ckeditor
 
 Multi ckeditor
 
-```
+```vue
 // App.vue
 <template lang="pug">
   #app
