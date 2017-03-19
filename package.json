@@ -3,7 +3,7 @@
   "description": "Vue2.0 Ckeditor component.",
   "version": "0.1.0",
   "repository": {
-    "url": "git@github.com:zhuowenli/VueCkeditor.git",
+    "url": "git@github.com:zhuowenli/vue-ckeditor.git",
     "type": "git"
   },
   "author": "卓文理 <531840344@qq.com>",
