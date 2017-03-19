@@ -1,8 +1,12 @@
 {
   "name": "vueckeditor",
-  "description": "My marvelous Vue app",
+  "description": "Vue2.0 Ckeditor component.",
   "version": "0.1.0",
-  "repository": {},
+  "repository": {
+    "url": "git@github.com:zhuowenli/VueCkeditor.git",
+    "type": "git"
+  },
+  "author": "卓文理 <531840344@qq.com>",
   "main": "dist/vueckeditor.js",
   "files": [
     "dist"
