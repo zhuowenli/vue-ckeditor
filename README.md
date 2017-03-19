@@ -26,12 +26,11 @@ Unpack (extract) the downloaded `.zip` archive to the `ckeditor` directory in th
 <script src="/path/to/ckeditor.js"></script>
 ```
 
-## Adding CKEditor to Your Page
+## Import VueCkeditor to your page
 
 Single ckeditor
 
 ```vue
-// App.vue
 <template lang="pug">
   #app
     vue-ckeditor(v-model="content")
@@ -56,7 +55,6 @@ Single ckeditor
 Multi ckeditor
 
 ```vue
-// App.vue
 <template lang="pug">
   #app
     vue-ckeditor(v-model="contentA" id="editor-a")
