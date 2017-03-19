@@ -78,6 +78,55 @@ Multi ckeditor
 </script>
 ```
 
+## Props
+
+### id
+
+Type: String
+Required: false
+Default: null
+
+### height
+
+Type: String
+Required: false
+Default: 300px
+
+### toolbar
+
+You can find toolbar list of [Toolbar Configurator](http://nightly.ckeditor.com/17-03-19-07-08/full/samples/toolbarconfigurator/index.html#advanced).
+
+Type: Array
+Required: false
+Default:
+
+```js
+[
+  'Format',
+  ['Bold', 'Italic', 'Strike', 'Underline'],
+  ['BulletedList', 'NumberedList', 'Blockquote'],
+  ['JustifyLeft', 'JustifyCenter', 'JustifyRight', 'JustifyBlock'],
+  ['Link', 'Unlink'],
+  ['FontSize', 'TextColor'],
+  ['Image'],
+  ['Undo', 'Redo'],
+  ['Source', 'Maximize']
+]
+```
+
+### language
+
+Type: String
+Required: false
+Default: 'zh-cn'
+
+### extraplugins
+
+Type: String
+Required: false
+Default: ''
+
+
 ## Folder structure
 
 - `src/`: Source files for this component
