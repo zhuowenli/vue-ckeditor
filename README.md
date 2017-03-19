@@ -82,23 +82,23 @@ Multi ckeditor
 
 ### id
 
-Type: String
-Required: false
-Default: null
+- Type: String
+- Required: false
+- Default: null
 
 ### height
 
-Type: String
-Required: false
-Default: 300px
+- Type: String
+- Required: false
+- Default: 300px
 
 ### toolbar
 
 You can find toolbar list of [Toolbar Configurator](http://nightly.ckeditor.com/17-03-19-07-08/full/samples/toolbarconfigurator/index.html#advanced).
 
-Type: Array
-Required: false
-Default:
+- Type: Array
+- Required: false
+- Default:
 
 ```js
 [
@@ -116,15 +116,15 @@ Default:
 
 ### language
 
-Type: String
-Required: false
-Default: 'zh-cn'
+- Type: String
+- Required: false
+- Default: 'zh-cn'
 
 ### extraplugins
 
-Type: String
-Required: false
-Default: ''
+- Type: String
+- Required: false
+- Default: ''
 
 
 ## Folder structure
