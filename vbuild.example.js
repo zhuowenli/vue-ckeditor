@@ -17,7 +17,7 @@ module.exports = (options, req) => ({
   },
   webpack(cfg) {
     if(!options.dev) {
-        cfg.output.publicPath = `/VueCKEditor/`;
+        cfg.output.publicPath = `/VueCkeditor/`;
     }
     return cfg;
   },

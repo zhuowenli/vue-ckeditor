@@ -1,6 +1,7 @@
-<template lang="pug">
-  .ckeditor
-    textarea(v-bind:id="id" v-bind:value="value")
+<template>
+  <div class="ckeditor">
+    <textarea v-bind:id="id" v-bind:value="value"></textarea>
+  </div>
 </template>
 
 <script>
