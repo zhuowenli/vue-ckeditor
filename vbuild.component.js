@@ -18,18 +18,5 @@ module.exports = {
   filename: {
     js: 'vueckeditor.js',
     css: 'vueckeditor.css'
-  },
-  // this will not copy ./static/** to ./dist/**
-  copy: [
-    {
-      from: './node_modules/ckeditor/config.js',
-      to: path.resolve(__dirname, 'dist')
-    }, {
-      from: './node_modules/ckeditor/lang/',
-      to: path.resolve(__dirname, 'dist/lang')
-    }, {
-      from: './node_modules/ckeditor/skins/',
-      to: path.resolve(__dirname, 'dist/skins')
-    },
-  ]
+  }
 }

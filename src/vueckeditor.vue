@@ -4,8 +4,6 @@
 </template>
 
 <script>
-  import 'ckeditor';
-
   const CKEDITOR = window.CKEDITOR;
   let index = 0;
 
