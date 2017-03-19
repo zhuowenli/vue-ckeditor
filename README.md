@@ -82,13 +82,13 @@ Multi ckeditor
 
 ### id
 
-- Type: String
+- Type: `String`
 - Required: false
 - Default: `null`
 
 ### height
 
-- Type: String
+- Type: `String`
 - Required: false
 - Default: `300px`
 
@@ -96,7 +96,7 @@ Multi ckeditor
 
 You can find toolbar list of [Toolbar Configurator](http://nightly.ckeditor.com/17-03-19-07-08/full/samples/toolbarconfigurator/index.html#advanced).
 
-- Type: Array
+- Type: `Array`
 - Required: false
 - Default:
 
@@ -116,13 +116,13 @@ You can find toolbar list of [Toolbar Configurator](http://nightly.ckeditor.com/
 
 ### language
 
-- Type: String
+- Type: `String`
 - Required: false
 - Default: `'zh-cn'`
 
 ### extraplugins
 
-- Type: String
+- Type: `String`
 - Required: false
 - Default: `''`
 
