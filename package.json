@@ -1,7 +1,7 @@
 {
   "name": "vueckeditor",
   "description": "Vue2.0 Ckeditor component.",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "repository": {
     "url": "git@github.com:zhuowenli/vue-ckeditor.git",
     "type": "git"
@@ -27,8 +27,5 @@
     "vbuild": "^6.0.0",
     "vbuild-karma": "^1.0.0"
   },
-  "license": "MIT",
-  "dependencies": {
-    "ckeditor": "full-4.6.2"
-  }
+  "license": "MIT"
 }

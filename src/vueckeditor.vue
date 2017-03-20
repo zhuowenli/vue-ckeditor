@@ -8,7 +8,12 @@
   const CKEDITOR = window.CKEDITOR;
   let index = 0;
 
+  if (!CKEDITOR) {
+    throw new Error('[VueCkeditor] cannot locate CKEDITOR.');
+  }
+
   export default {
+    name: 'VueCkeditor',
     props: {
       value: {
         type: String
