@@ -1,7 +1,7 @@
 {
   "name": "vueckeditor",
   "description": "Vue2.0 Ckeditor component.",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "repository": {
     "url": "git@github.com:zhuowenli/vue-ckeditor.git",
     "type": "git"
