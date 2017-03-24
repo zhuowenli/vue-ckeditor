@@ -126,6 +126,11 @@ You can find toolbar list of [Toolbar Configurator](http://nightly.ckeditor.com/
 - Required: false
 - Default: `''`
 
+## TIP!!
+
+Update components value with id:
+[https://jsfiddle.net/zhuowenli/okx75cem/](https://jsfiddle.net/zhuowenli/okx75cem/)
+
 
 ## Folder structure
 
