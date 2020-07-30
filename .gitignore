@@ -5,4 +5,4 @@ node_modules
 # produced by vbuild
 dist
 dist-example
-
+yarn.lock
